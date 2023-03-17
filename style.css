@@ -1,0 +1,203 @@
+@media (min-width: 1000px) and (max-width: 1200px) {
+    body {
+      background-color:#be4bdb;}
+    }
+
+
+ .layout{
+    background-image: url(house1.jpg);
+    width: 100%;
+    text-align: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-size: larger;
+}
+#title{
+    /* font-family: 'Dancing Script', cursive;
+font-family: 'DM Sans', sans-serif;
+font-family: 'Libre Baskerville', serif; */
+font-family: 'Noto Serif', serif;
+font-size: x-large;
+}
+#shell{
+    color: darkred;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    }
+
+    #butn1{
+        border-radius: 20%;
+        margin: 60px;
+
+    }
+    #butn2{
+        border-radius: 30%;
+        color: antiquewhite;
+        padding: 10px;
+        background-color: darkblue;
+        font-size: large;
+        border-style: none;
+    }
+    #pple{
+        text-align: center;
+    }
+    .booking1,.booking2,
+    .booking3,
+    .booking4,
+    .booking5,
+    .booking6{
+        border-radius: 30%;
+        padding: 10px;
+        background-color:blue ;
+    }
+
+    .images{
+        /* width: 40%; */
+        display: flex;
+    }
+    #dubai1,#dubai2,#dubai3{
+        width: 25%;
+        gap: 10%;
+        justify-content: space-between;
+        padding: 15px;
+    }
+   #title2{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Dancing Script', cursive;
+font-family: 'DM Sans', sans-serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Noto Serif', serif;
+   }
+   #faculty{
+    font-size: xx-large;
+    text-align: center;
+    /* font-family: 'Dancing Script', cursive;
+font-family: 'DM Sans', sans-serif;
+font-family: 'Libre Baskerville', serif; */
+font-family: 'Noto Serif', serif;
+   }
+   #butn3{
+    text-align: center;
+    border-radius: 35%;
+    padding: 20px;
+    font-size: large;
+    border-color: blue;
+  
+   }
+   .Icons .icons{
+    width:20%;
+    display: flex;
+   }
+   .rooms{
+    text-align: center;
+
+   }
+   .Icons{
+    display: flex;
+   }
+   #question{
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    font-size: xx-large;
+
+   }
+   #logos{
+    width: 30%;
+   }
+   .Beds .beds{
+    width: 45%; 
+   }
+   #son ,#son2, #son3
+   {
+    border-radius: 45%;
+    padding: 20px;
+   }
+    .Beds{
+     display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    margin: 30px;
+    
+ }   
+   
+   #lunch{
+  gap: 10rem;
+   }
+ .menu{
+    text-align: center;
+ }
+  
+   
+   #room{
+    text-align: center;
+    margin: 30px;
+   }
+   .Nuro{
+    display: flex;
+    justify-content: space-between;
+   }
+   .Pasta .pasta{
+    display: flex;
+    width: 50%;
+   }
+   .log{
+    padding: 10px;
+    margin: 20px;
+
+   }
+   .Pasta{
+    display:grid;
+    grid-template-columns:repeat(3 ,1fr);
+   
+    padding: 50px;
+   }
+   #subcribe{
+    border-radius: 30%;
+    padding: 10px;
+    background-color: blue;
+   }
+   .reviews{
+    padding:30px ;
+    gap: 10%;
+   }
+   #email{
+    padding: 10px;
+    border-radius: 30%;
+   }
+   #butn5 {
+    border-radius: 30%;
+    padding: 10px;
+   
+   }
+   #butn6{
+    border-radius: 30%;
+    padding: 10px;
+   }
+   #butn7{
+    border-radius: 30%;
+    padding: 10px;
+   }
+   .comply{
+float: right;
+padding-right: 100px;
+/* margin: 20px; */
+
+
+   }
+   .butnbig{
+    margin: 30px;
+    padding: 30px  450px 30px 450px;
+    border-radius: 10%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+   }
+.people{
+display: flex;
+gap: 10%;
+}
