@@ -1,4 +1,4 @@
-@media (min-width: 1000px) and (max-width: 1200px) {
+@media (max-width: 600px) {
     body {
       background-color:#be4bdb;}
     }
@@ -26,19 +26,32 @@ font-size: x-large;
     color: darkred;
 }
 .btn{
-    display: flex;
-    justify-content: space-between;
+      display: flex; 
+    justify-content: space-between; 
+    text-align: center;
+    background-color:blue;
+    border-radius: 30%;
+    margin: 10%;
+    
+    
+ 
+   
+    }
+    #search{
+        color: blue;
+        padding: 10px;
     }
 
     #butn1{
         border-radius: 20%;
-        margin: 60px;
+        margin: 20px;
+        padding: 10px;
 
     }
     #butn2{
         border-radius: 30%;
         color: antiquewhite;
-        padding: 10px;
+        padding: 6px 20px 6px 20px;
         background-color: darkblue;
         font-size: large;
         border-style: none;
@@ -59,7 +72,17 @@ font-size: x-large;
     .images{
         /* width: 40%; */
         display: flex;
+         
     }
+     
+    
+    #hotel{
+        font-family: 'Noto Serif', serif; 
+        font-size: large;
+        text-align: center;
+    }
+
+    
     #dubai1,#dubai2,#dubai3{
         width: 25%;
         gap: 10%;
@@ -73,17 +96,16 @@ font-size: x-large;
 font-family: 'DM Sans', sans-serif;
 font-family: 'Libre Baskerville', serif;
 font-family: 'Noto Serif', serif;
+
+
    }
    #faculty{
     font-size: xx-large;
     text-align: center;
-    /* font-family: 'Dancing Script', cursive;
-font-family: 'DM Sans', sans-serif;
-font-family: 'Libre Baskerville', serif; */
 font-family: 'Noto Serif', serif;
    }
    #butn3{
-    text-align: center;
+  text-align: center;
     border-radius: 35%;
     padding: 20px;
     font-size: large;
@@ -111,12 +133,15 @@ font-family: 'Noto Serif', serif;
     width: 30%;
    }
    .Beds .beds{
-    width: 45%; 
+    width: 55%; 
    }
    #son ,#son2, #son3
    {
     border-radius: 45%;
     padding: 20px;
+   text-align: center; 
+   
+
    }
     .Beds{
      display: grid;
@@ -124,22 +149,20 @@ font-family: 'Noto Serif', serif;
     margin: 30px;
     
  }   
-   
-   #lunch{
-  gap: 10rem;
-   }
+
  .menu{
     text-align: center;
  }
   
    
-   #room{
+   .rooms{
     text-align: center;
     margin: 30px;
    }
    .Nuro{
     display: flex;
     justify-content: space-between;
+    background-color: #be4bdb;
    }
    .Pasta .pasta{
     display: flex;
@@ -161,26 +184,26 @@ font-family: 'Noto Serif', serif;
     padding: 10px;
     background-color: blue;
    }
-   .reviews{
-    padding:30px ;
-    gap: 10%;
-   }
+  
    #email{
-    padding: 10px;
+    padding: 15px;
     border-radius: 30%;
    }
    #butn5 {
     border-radius: 30%;
     padding: 10px;
+    margin: 40px;
    
    }
    #butn6{
     border-radius: 30%;
     padding: 10px;
+    margin: 40px;
    }
    #butn7{
     border-radius: 30%;
     padding: 10px;
+    margin: 40px;
    }
    .comply{
 float: right;
@@ -196,8 +219,68 @@ padding-right: 100px;
     background-color: blue;
     color: white;
     text-align: center;
+    /* margin-bottom: 50px; */
    }
 .people{
-display: flex;
-gap: 10%;
+/* display: flex; */
+gap: 5%;
+ text-align: center; 
+}
+#message{
+     padding: 40px;
+    /* margin: 30px;  */
+}
+/* #hotel{
+    width: 30%;
+    text-align: center;
+} */
+.bridges{
+    width: 75%;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    float: right;
+    margin: 8px;
+   
+}
+.div{
+     display: grid; 
+    grid-template-columns:repeat(2,1fr); 
+    font-family: 'Noto Serif', serif;
+    font-size: larger;
+}
+#Bridge{
+    width: 50%;
+}
+.Bridge1{
+    display: flex;
+ 
+}
+#star{
+    font-size: xx-large;
+}
+.details{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+   
+}
+.wifi{
+    float: left;
+    display: flex;
+    gap: 20%;
+    padding: 10px;
+   
+}
+.gym{
+    background-color: antiquewhite;
+   padding: 10px;
+}
+
+
+#dinner{
+   display: flex;
+   
+}
+.mainfooter{
+    font-family: 'Noto Serif', serif;
+    font-size: larger;
 }
