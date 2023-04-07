@@ -1,13 +1,10 @@
-@media (max-width: 600px) {
-    body {
-      background-color:#be4bdb;}
-    }
 
 
  .layout{
     background-image: url(house1.jpg);
     width: 100%;
     text-align: center;
+    background-color: #bac8ff;
 }
 ul{
     display: flex;
@@ -27,11 +24,15 @@ font-size: x-large;
 }
 .btn{
       display: flex; 
-    justify-content: space-between; 
+    gap: 5%;
     text-align: center;
     background-color:blue;
-    border-radius: 30%;
-    margin: 10%;
+    border-radius: 30px;
+    width: 45%;
+    
+    padding: 30px 30px;
+    margin-bottom: 30px;
+   
     
     
  
@@ -43,19 +44,33 @@ font-size: x-large;
     }
 
     #butn1{
-        border-radius: 20%;
+        border-radius: 25px;
         margin: 20px;
-        padding: 10px;
+        padding: 5px 10px 5px 10px ;
+        font-size: large;
 
     }
     #butn2{
-        border-radius: 30%;
+        border-radius: 20px;
         color: antiquewhite;
-        padding: 6px 20px 6px 20px;
+        padding: 7px 30px 7px 30px;
         background-color: darkblue;
         font-size: large;
         border-style: none;
+        
     }
+     #butnn{
+        border-radius: 35px;
+        padding: 0px 50px 0px 50px;
+        background-color: #be4bdb;
+        font-size: large;
+        border-style: none;
+        margin: 10px;
+
+
+
+     }
+
     #pple{
         text-align: center;
     }
@@ -163,6 +178,7 @@ font-family: 'Noto Serif', serif;
     display: flex;
     justify-content: space-between;
     background-color: #be4bdb;
+    margin: 10px;
    }
    .Pasta .pasta{
     display: flex;
@@ -190,27 +206,41 @@ font-family: 'Noto Serif', serif;
     border-radius: 30%;
    }
    #butn5 {
-    border-radius: 30%;
-    padding: 10px;
+    border-radius: 30px;
+    
     margin: 40px;
+    padding: 7px 30px 7px 30px;
    
    }
    #butn6{
-    border-radius: 30%;
-    padding: 10px;
+    border-radius: 30px;
     margin: 40px;
+    padding: 7px 30px 7px 30px;
    }
    #butn7{
-    border-radius: 30%;
-    padding: 10px;
+    border-radius: 30px;
     margin: 40px;
+    padding: 7px 30px 7px 30px;
    }
    .comply{
 float: right;
 padding-right: 100px;
-/* margin: 20px; */
-
-
+ margin: 20px; 
+   }
+   
+   .reviews{
+    float: right;
+   }
+   /* .compliments{
+    float: right; */
+   .compliments{
+    padding-left: 90px;
+   }
+   #girl{
+    width: 50%;
+    padding-top: 40px;
+  
+   
    }
    .butnbig{
     margin: 30px;
@@ -278,9 +308,30 @@ gap: 5%;
 
 #dinner{
    display: flex;
-   
 }
 .mainfooter{
     font-family: 'Noto Serif', serif;
     font-size: larger;
 }
+`
+    #hotel1{
+        width: 35%;
+        border-top-left-radius: 20%;
+        border-bottom-right-radius: 20%;
+        padding: 30px;
+        
+        
+    }
+    .Hotelmain{
+        display: flex;
+        font-family: 'Noto Serif', serif;
+        font-size: x-large;      
+       
+    }
+    @media screen and (max-width: 768px) {.container{
+
+    }
+    
+    } 
+    
+    
