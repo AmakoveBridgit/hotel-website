@@ -5,7 +5,23 @@
     width: 100%;
     text-align: center;
     background-color: #bac8ff;
+    height: 70vh;
+   
 }
+.Body{
+    background-color: #bac8ff;
+ 
+}
+.bookings{
+display: flex;
+     border-radius: 30px;
+    padding: 15px;
+    background-color:blue ;
+    /* margin-left: 100px; */
+   
+}
+
+
 ul{
     display: flex;
     list-style: none;
@@ -23,16 +39,16 @@ font-size: x-large;
     color: darkred;
 }
 .btn{
-      display: flex; 
+       display: flex;  
     gap: 5%;
     text-align: center;
     background-color:blue;
-    border-radius: 30px;
-    width: 45%;
-    
+    border-radius: 50px;
+    width: 50%;
+    margin-left: 30%;
     padding: 30px 30px;
-    margin-bottom: 30px;
-   
+    /* margin-bottom: 30px;
+    */
     
     
  
@@ -79,21 +95,21 @@ font-size: x-large;
     .booking4,
     .booking5,
     .booking6{
-        border-radius: 30%;
-        padding: 10px;
+        border-radius: 30px;
+        padding: 15px;
         background-color:blue ;
     }
 
     .images{
-        /* width: 40%; */
+         /* width: 40%;  */
         display: flex;
          
     }
      
     
     #hotel{
-        font-family: 'Noto Serif', serif; 
-        font-size: large;
+        /* font-family: 'Noto Serif', serif;  */
+        font-size: x-large;
         text-align: center;
     }
 
@@ -119,9 +135,13 @@ font-family: 'Noto Serif', serif;
     text-align: center;
 font-family: 'Noto Serif', serif;
    }
+   #FACULTIES{
+    font-size: xx-large;
+    font-family: 'Noto Serif', serif;
+   }
    #butn3{
   text-align: center;
-    border-radius: 35%;
+    border-radius: 35px;
     padding: 20px;
     font-size: large;
     border-color: blue;
@@ -150,14 +170,18 @@ font-family: 'Noto Serif', serif;
    .Beds .beds{
     width: 55%; 
    }
-   #son ,#son2, #son3
+   .son 
    {
-    border-radius: 45%;
+    border-radius: 100%;
     padding: 20px;
-   text-align: center; 
+    text-align: center;  
+ 
+
    
 
    }
+  
+   
     .Beds{
      display: grid;
     grid-template-columns: repeat(3,1fr); 
@@ -196,14 +220,15 @@ font-family: 'Noto Serif', serif;
     padding: 50px;
    }
    #subcribe{
-    border-radius: 30%;
+    border-radius: 30px;
     padding: 10px;
     background-color: blue;
    }
   
    #email{
     padding: 15px;
-    border-radius: 30%;
+    border-radius:30px;
+    background-color: #bac8ff;
    }
    #butn5 {
     border-radius: 30px;
@@ -224,37 +249,42 @@ font-family: 'Noto Serif', serif;
    }
    .comply{
 float: right;
-padding-right: 100px;
+/* padding-left: 80px; */
  margin: 20px; 
+ 
    }
    
    .reviews{
     float: right;
+     /* margin-bottom: 50px;  */
+    
    }
    /* .compliments{
     float: right; */
    .compliments{
-    padding-left: 90px;
+    padding-left: 70px;
+    
    }
    #girl{
     width: 50%;
-    padding-top: 40px;
-  
    
    }
    .butnbig{
     margin: 30px;
-    padding: 30px  450px 30px 450px;
+    padding: 30px  250px 30px 250px;
     border-radius: 10%;
     background-color: blue;
     color: white;
     text-align: center;
-    /* margin-bottom: 50px; */
+     margin-top: 100px;
+     border-top-right-radius: 20%;
+     border-bottom-left-radius: 20%;
    }
 .people{
-/* display: flex; */
+
 gap: 5%;
  text-align: center; 
+ display: flex;
 }
 #message{
      padding: 40px;
@@ -304,7 +334,15 @@ gap: 5%;
     background-color: antiquewhite;
    padding: 10px;
 }
-
+.person{
+    display: flex;
+    gap: 10%;
+    
+}
+.SON{
+    gap: 15%;
+    display: flex;
+}
 
 #dinner{
    display: flex;
@@ -328,10 +366,11 @@ gap: 5%;
         font-size: x-large;      
        
     }
-    @media screen and (max-width: 768px) {.container{
+    @media screen and (max-width: 768px){
+     
 
     }
     
-    } 
+    
     
     
