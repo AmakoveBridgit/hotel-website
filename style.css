@@ -1,4 +1,8 @@
+@media screen and (max-width: 900px){
+  
+   
 
+}
 
  .layout{
     background-image: url(house1.jpg);
@@ -109,7 +113,7 @@ font-size: x-large;
     
     #hotel{
         /* font-family: 'Noto Serif', serif;  */
-        font-size: x-large;
+        font-size: large;
         text-align: center;
     }
 
@@ -353,23 +357,26 @@ gap: 5%;
 }
 
     #hotel1{
-        width: 35%;
+        width: 25%;
         border-top-left-radius: 20%;
         border-bottom-right-radius: 20%;
         padding: 30px;
-        
-        
+             
     }
     .Hotelmain{
         display: flex;
         font-family: 'Noto Serif', serif;
-        font-size: x-large;      
+        font-size: large;      
        
     }
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 400px){
      
+    body{
+        text-align: center;
+    }
 
     }
+
     
     
     
